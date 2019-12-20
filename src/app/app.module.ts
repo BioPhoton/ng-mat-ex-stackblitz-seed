@@ -30,14 +30,15 @@ const ROUTES = [
 @NgModule({
   imports:      [ 
     BrowserModule, 
-  BrowserAnimationsModule,
+    BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    FormsModule,  RouterModule.forRoot(ROUTES),
+    FormsModule,  
+    RouterModule.forRoot(ROUTES),
     ExBaseModule 
     
     ],
